@@ -14,7 +14,15 @@
 
 ## 3 -  Structured Output
 
+Produce structured output like JSON from LLMs.
+
+[structured-output](structured-output.md)
+
 ## 4 - Tool Calling
+
+Extend LLMs capability by providing them with functions/tools.
+
+[tool calling](tool-calling.md)
 
 ## 5 - Agent: Research Agent with Tavily
 
