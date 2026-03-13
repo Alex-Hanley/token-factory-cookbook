@@ -71,7 +71,7 @@ Next, we capture **real-world usage data** to improve model performance.
 
 Learn how to adapt models for our specific use cases.
 
-➡️ [fine tuning models](fine-tune.md) - improve model performance by **training on production data** and other optimizations.
+➡️ [fine tuning models](fine-tuning.md) - improve model performance by **training on production data** and other optimizations.
 
 ➡️ [Distilling models](distillation.md) - create smaller, efficient models.
 
