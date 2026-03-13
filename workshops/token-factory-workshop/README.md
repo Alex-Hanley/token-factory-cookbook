@@ -77,15 +77,25 @@ Learn how to adapt models for our specific use cases.
 
 ---
 
-## 4 - Integration with Coding Agents
+## 4 - Deploy and Monitor
+
+Deploy trained models and monitor their performance in real time.
+
+---
+
+## 5 - Integration with Coding Agents
 
 Integrate models with **coding assistants** like Cline, Cursor and Claude Code.
 
 ---
 
-## 5 - Fun and Games
+## 6 - Fun and Games
 
 A few experimental and creative examples to explore what else is possible.
+
+---
+
+## Resources
 
 ---
 
