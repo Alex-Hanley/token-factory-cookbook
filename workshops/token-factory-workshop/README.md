@@ -18,7 +18,8 @@ Before starting the workshop, make sure you have:
 
 ### Building Production-Grade AI Applications
 
-<img src="images/coninious-ai-loop.png" style="float:right;">
+<img src="images/coninious-ai-loop.png" style="float:right;" width="300px">
+
 
 Modern AI applications improve continuously through a **production feedback loop**:
 
@@ -66,7 +67,7 @@ Next, we capture **real-world usage data** to improve model performance.
 
 ---
 
-## 3 — Customizing / Shaping  Models
+## 3 - Customizing / Shaping  Models
 
 Learn how to adapt models for our specific use cases.
 
@@ -76,19 +77,19 @@ Learn how to adapt models for our specific use cases.
 
 ---
 
-# 5 — Integration with Coding Agents
+## 4 - Integration with Coding Agents
 
-Integrate models with **coding assistants and agent frameworks**.
+Integrate models with **coding assistants** like Cline, Cursor and Claude Code.
 
 ---
 
-# 6 — Some Fun
+## 5 - Fun and Games
 
 A few experimental and creative examples to explore what else is possible.
 
 ---
 
-# Dev Notes
+## Dev Notes
 
 Project setup using **uv**:
 
@@ -98,7 +99,7 @@ uv init --python=3.12
 uv add openai python-dotenv pydantic tavily-python
 uv add --dev ipykernel
 
-# generate requirements.txt
+# (optional) generate requirements.txt
 uv export \
   --frozen \
   --no-hashes \
@@ -107,14 +108,4 @@ uv export \
   --output-file=requirements.txt
 ```
 
----
 
-If you'd like, I can also help you make this **10x better for workshops** by adding:
-
-* **quick start (5-minute setup)**
-* **workshop timeline**
-* **expected outcomes**
-* **architecture diagram**
-* **copy-paste commands for participants**
-
-These make workshop repos much smoother for attendees.
