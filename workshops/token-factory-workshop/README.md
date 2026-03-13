@@ -1,55 +1,120 @@
 # Token Factory Workshop
 
-## `https://bit.ly/4cCCNzV`
+## 🔗 `bit.ly/4cCCNzV`
 
 <img src="qrcode-workshop.png" width="300px">
 
-## 1 -  Getting Started
+---
 
-[getting started guide](getting-started.md)
+## Prerequisites
 
-## 2 -  Exploring Token Factory
+Before starting the workshop, make sure you have:
 
-[explore Token Factory UI](explore-token-factory.md)
-
-## 3 -  Structured Output
-
-Produce structured output like JSON from LLMs.
-
-[structured-output](structured-output.md)
-
-## 4 - Tool Calling
-
-Extend LLMs capability by providing them with functions/tools.
-
-[tool calling](tool-calling.md)
-
-## 5 - Agent: Research Agent with Tavily
-
-Build a research agent using Tavily.
-
-[search agent with Tavily](tavily-search.md)
-
-## 6 - Fine Tuning Models
-
-## 7 - Distilling Models
-
-## 8 - Integration with Coding Agents
-
-## 9 - Some FUN
+* A **[Nebius Token Factory](https://tokenfactory.nebius.com/)** account
 
 ---
 
+## Workshop Theme
 
-## Dev Notes
+### Building Production-Grade AI Applications
 
-Project setup:
+<img src="images/coninious-ai-loop.png" style="float:right;">
+
+Modern AI applications improve continuously through a **production feedback loop**:
+
+1. Start with **base (stock) models**
+2. **Collect production logs** from real usage
+3. **Fine-tune or shape models** using real production data
+4. **Deploy the improved model**
+
+This iterative process enables teams to progressively build **robust, production-ready AI systems**.
+
+⭐️ **Token Factory has the complete workflow built-in** ⭐️ 
+
+<br clear="both">
+
+---
+
+## 0 — Getting Started
+
+Begin by setting up your environment and verifying access.
+
+➡️ **[Getting Started Guide](getting-started.md)**
+
+---
+
+## 1 - Using Models
+
+In this section, we explore how to use models hosted on **Token Factory**.
+
+➡️  [explore Token Factory UI](explore-token-factory.md)
+
+➡️ [structured-output](structured-output.md): Produce structured output like JSON from LLMs.
+
+➡️ [tool calling](tool-calling.md): Extend LLMs capability by providing them with functions/tools.
+
+➡️ [search agent with Tavily](tavily-search.md)
+
+
+---
+
+## 2 - Collecting Production Logs
+
+Next, we capture **real-world usage data** to improve model performance.
+
+➡️ **[Collecting Production Logs](collecting-production-logs.md)**
+
+---
+
+## 3 — Customizing / Shaping  Models
+
+Learn how to adapt models for our specific use cases.
+
+➡️ [fine tuning models](fine-tune.md) - improve model performance by **training on production data** and other optimizations.
+
+➡️ [Distilling models](distillation.md) - create smaller, efficient models.
+
+---
+
+# 5 — Integration with Coding Agents
+
+Integrate models with **coding assistants and agent frameworks**.
+
+---
+
+# 6 — Some Fun
+
+A few experimental and creative examples to explore what else is possible.
+
+---
+
+# Dev Notes
+
+Project setup using **uv**:
 
 ```bash
 uv init --python=3.12
-uv add openai  python-dotenv  pydantic tavily-python 
+
+uv add openai python-dotenv pydantic tavily-python
 uv add --dev ipykernel
 
-# create a requirements.txt file
-uv export --frozen --no-hashes --no-emit-project --no-default-groups --output-file=requirements.txt
+# generate requirements.txt
+uv export \
+  --frozen \
+  --no-hashes \
+  --no-emit-project \
+  --no-default-groups \
+  --output-file=requirements.txt
 ```
+
+---
+
+If you'd like, I can also help you make this **10x better for workshops** by adding:
+
+* **quick start (5-minute setup)**
+* **workshop timeline**
+* **expected outcomes**
+* **architecture diagram**
+* **copy-paste commands for participants**
+
+These make workshop repos much smoother for attendees.
